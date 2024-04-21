@@ -32,6 +32,6 @@ public class MaterialCountPair {
 
     @Override
     public String toString() {
-        return "Material Pair : " + material + "\n\t" + "Count : " + count; //todo
+        return "Material Pair : " + material + "\n\t" + "Count : " + count;
     }
 }

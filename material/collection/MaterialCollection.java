@@ -127,7 +127,7 @@ public class MaterialCollection implements Iterable<MaterialCountPair> {
 
     @Override
     public String toString() {
-        StringBuilder result = new StringBuilder().append("Materials : \n"); //todo
+        StringBuilder result = new StringBuilder().append("Materials : \n");
         for(MaterialCountPair materialCountPair : this) {
             result.append(materialCountPair.getMaterial())
                     .append("\n\tCount : ").append(materialCountPair.getCount()).append("\n");
